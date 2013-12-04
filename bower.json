@@ -1,0 +1,17 @@
+{
+  "name": "yatsatrap",
+  "version": "2.3.2.0",
+  "homepage": "https://github.com/stefanotorresi/yatsatrap",
+  "authors": [
+    "Stefano Torresi <webdev@stefanotorresi.it>"
+  ],
+  "description": "Yet Another Twitter SAss bootsTRAP",
+  "keywords": [
+    "bootstrap",
+    "sass"
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*"
+  ]
+}
