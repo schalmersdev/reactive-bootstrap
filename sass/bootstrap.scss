@@ -1,63 +1,49 @@
-/**
- * Bootstrap v2.3.2
- *
- * Copyright 2012 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- */
-
 // Core variables and mixins
-@import "partials/variables"; // Modify this for custom colors, font-sizes, etc
+@import "partials/variables";
 @import "partials/mixins";
 
-// CSS Reset
-@import "partials/reset";
+// Reset
+@import "partials/normalize";
+@import "partials/print";
 
-// Grid system and page structure
+// Core CSS
 @import "partials/scaffolding";
-@import "partials/grid";
-@import "partials/layouts";
-
-// Base CSS
 @import "partials/type";
 @import "partials/code";
-@import "partials/forms";
+@import "partials/grid";
 @import "partials/tables";
-
-// Components: common
-@import "partials/sprites";
-@import "partials/dropdowns";
-@import "partials/wells";
-@import "partials/component-animations";
-@import "partials/close";
-
-// Components: Buttons & Alerts
+@import "partials/forms";
 @import "partials/buttons";
-@import "partials/button-groups";
-@import "partials/alerts"; // Note: alerts share common CSS with buttons and thus have styles in buttons
 
-// Components: Nav
+// Components
+@import "partials/component-animations";
+@import "partials/glyphicons";
+@import "partials/dropdowns";
+@import "partials/button-groups";
+@import "partials/input-groups";
 @import "partials/navs";
 @import "partials/navbar";
 @import "partials/breadcrumbs";
 @import "partials/pagination";
 @import "partials/pager";
+@import "partials/labels";
+@import "partials/badges";
+@import "partials/jumbotron";
+@import "partials/thumbnails";
+@import "partials/alerts";
+@import "partials/progress-bars";
+@import "partials/media";
+@import "partials/list-group";
+@import "partials/panels";
+@import "partials/wells";
+@import "partials/close";
 
-// Components: Popovers
+// Components w/ JavaScript
 @import "partials/modals";
 @import "partials/tooltip";
 @import "partials/popovers";
-
-// Components: Misc
-@import "partials/thumbnails";
-@import "partials/media";
-@import "partials/labels-badges";
-@import "partials/progress-bars";
-@import "partials/accordion";
 @import "partials/carousel";
-@import "partials/hero-unit";
 
 // Utility classes
-@import "partials/utilities"; // Has to be last to override when necessary
+@import "partials/utilities";
+@import "partials/responsive-utilities";

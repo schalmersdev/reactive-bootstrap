@@ -11,7 +11,7 @@ This is a stripped down fork of [thomas-mcdonald/bootstrap-sass](https://github.
 Version
 ---
 
-**2.3.2**
+**3.0.2**
 
 [Semver](http://semver.org) tags map to actual [Twitter Bootstrap](http://getbootstrap.com) versions. Custom suffixes may appear for maintenance.
 
@@ -30,15 +30,11 @@ Just simple as:
 
 `@import path/to/yatsatrap/sass/bootstrap`
 
-Note you also have the responsive add-on:
-
-`@import path/to/yatsatrap/sass/bootstrap-responsive`
-
 
 **The Javascript**
 
 The js sources are provided uncompressed, both in the single file `js/bootstrap-full.js` and divided by component.
-You can delve into using only some components, but you'll have to deal with dependencies by yourself.
+You can delve into using only some components, but you'll have to deal with dependencies by yourself (see the [official docs](http://getbootstrap.com/javascript)).
 
 For reference, here is the order by which the components are loaded in the single file:
 
@@ -53,7 +49,6 @@ For reference, here is the order by which the components are loaded in the singl
 *  `bootstrap-popover.js`
 *  `bootstrap-scrollspy.js`
 *  `bootstrap-tab.js`
-*  `bootstrap-typeahead.js`
 *  `bootstrap-affix.js`
 
 
@@ -69,10 +64,6 @@ return [
                 'css/bootstrap.css' [
                     'sass/bootstrap.scss',
                 ],
-                'css/bootstrap-responsive.css' => [
-                    'sass/bootstrap.scss',
-                    'sass/bootstrap-responsive.scss',
-                ],
                 'js/bootstrap.js' => [
                     'js/bootstrap-transition.js',
                     'js/bootstrap-alert.js',
@@ -85,7 +76,6 @@ return [
                     'js/bootstrap-popover.js',
                     'js/bootstrap-scrollspy.js',
                     'js/bootstrap-tab.js',
-                    'js/bootstrap-typeahead.js',
                     'js/bootstrap-affix.js',
                 ],
             ],
@@ -108,4 +98,4 @@ return [
 ];
 ```
 
-Your mileage of course may vary.
+Your mileage may of course vary.
