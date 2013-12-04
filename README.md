@@ -109,3 +109,16 @@ return [
 ```
 
 Your mileage of course may vary.
+
+
+**Customize**
+
+You can override [variables](http://getbootstrap.com/2.3.2/customize.html#variables) by redefining them before the `@import` directive.
+
+```scss
+$navbar-default-bg: #312312;
+$light-orange: #ff8c00;
+$navbar-default-color: $light-orange;
+
+@import "path/to/yatsatrap/sass/bootstrap";
+```
