@@ -87,9 +87,6 @@ return [
             'css/bootstrap.css' => [
                 [ 'filter' => 'ScssFilter' ],
             ],
-            'css/bootstrap-responsive.css' => [
-                [ 'filter' => 'ScssFilter' ],
-            ],
             'js/bootstrap.js' => [
                 [ 'filter' => 'UglifyJs2' ]
             ],
