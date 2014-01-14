@@ -1,8 +1,8 @@
 {
-  "name": "yatsatrap",
-  "homepage": "https://github.com/stefanotorresi/yatsatrap",
+  "name": "reactive-bootstrap",
+  "homepage": "hhttps://github.com/schalmersdev/reactive-bootstrap",
   "authors": [
-    "Stefano Torresi <webdev@stefanotorresi.it>"
+    "Samuel Chalmers"
   ],
   "description": "Yet Another Twitter SAss bootsTRAP",
   "keywords": [
